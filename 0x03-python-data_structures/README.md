@@ -28,4 +28,6 @@ This directory contains the files and their functions contained in each task for
 
 * 13-is_palindrome.c	C program that checks if a singly linked list is a palindrome
 
+* 100-print_python_list_info.c  	C function to compile in a shared library that prints info on a Python list
+
 * lists.h	Header file for the C program
