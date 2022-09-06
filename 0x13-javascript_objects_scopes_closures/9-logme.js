@@ -1,7 +1,10 @@
 #!/usr/bin/node
 
-let nbArgs = 0;
-exports.logMe = function (item) {
-  console.log(nbArgs + ': ' + item);
-  nbArgs++;
+let cuantity = 0;
+
+const logMe = (item) => {
+  console.log(`${cuantity}: ${item}`);
+  cuantity++;
 };
+
+module.exports = { logMe };
